@@ -135,9 +135,21 @@ export BAG_PATH=/path/to/your.bag
 
 ## Citation
 
-If you find this repository useful, please cite:
+Please consider citing our work if you find our code or paper useful:
 
-Liu, Binhong, Tao Yang, Haoji Cao, Shuqi Fu, Yangwang Fang, and Zhi Yan. "LighterBEV: LiDAR Global Localization Meets Online Learning." IEEE Robotics and Automation Letters 11, no. 2 (2026): 1170-1177. https://doi.org/10.1109/LRA.2025.3641146
+```bibtex
+@ARTICLE{11282439,
+  author={Liu, Binhong and Yang, Tao and Cao, Haoji and Fu, Shuqi and Fang, Yangwang and Yan, Zhi},
+  journal={IEEE Robotics and Automation Letters},
+  title={LighterBEV: LiDAR Global Localization Meets Online Learning},
+  year={2026},
+  volume={11},
+  number={2},
+  pages={1170-1177},
+  keywords={Feature extraction;Location awareness;Laser radar;Training;Adaptation models;Accuracy;Pipelines;Computational modeling;Simultaneous localization and mapping;Principal component analysis;Accuracy;image recognition;incremental learning;feature extraction;laser radar;localization;location awareness;point cloud compression;pose estimation;simultaneous localization and mapping;three-dimensional displays;training},
+  doi={10.1109/LRA.2025.3641146}
+}
+```
 
 ## Acknowledgements
 
