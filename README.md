@@ -151,13 +151,9 @@ export BAG_PATH=/path/to/your.bag
 
 ## Citation
 
-If you find this repository useful, please cite LighterBEV:
+If you find this repository useful, please cite:
 
-```bibtex
-@article{lighterbev,
-  title={LighterBEV: LiDAR Global Localization Meets Online Learning}
-}
-```
+Liu, Binhong, Tao Yang, Haoji Cao, Shuqi Fu, Yangwang Fang, and Zhi Yan. "LighterBEV: LiDAR Global Localization Meets Online Learning." IEEE Robotics and Automation Letters 11, no. 2 (2026): 1170-1177. https://doi.org/10.1109/LRA.2025.3641146
 
 ## Acknowledgements
 
@@ -169,5 +165,3 @@ This repository benefits from the following open-source projects:
 ## License
 
 The repository-level license notice is provided in [LICENSE](LICENSE).
-
-Vendored third-party dependencies keep their own upstream licenses and attribution requirements. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for details.
