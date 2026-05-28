@@ -20,9 +20,6 @@ The system uses FAST-LIO2 as the LiDAR-inertial odometry frontend and integrates
 
 ![NCLT demo](assets/nclt_fastlio_20260528_104429_10x.gif)
 
-- NCLT demo GIF: `assets/nclt_fastlio_20260528_104429_10x.gif`
-- NCLT demo video: [assets/nclt_fastlio_20260528_104429_10x.mp4](assets/nclt_fastlio_20260528_104429_10x.mp4)
-
 ## Installation
 
 ### 1. System requirements
