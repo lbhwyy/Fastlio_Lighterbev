@@ -79,6 +79,12 @@ git clone https://github.com/lbhwyy/Fastlio_Lighterbev.git
 cd Fastlio_Lighterbev
 ```
 
+## Datasets
+
+For NCLT bag preparation, please refer to:
+
+- <https://github.com/gaoxiang12/faster-lio#prepare-the-datasets>
+
 ## Build
 
 ```bash
