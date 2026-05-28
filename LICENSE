@@ -1,0 +1,25 @@
+Repository-level license notice
+
+Copyright (c) 2026 The repository authors
+
+Except where a file or directory states otherwise, the original integration code
+and repository-specific scripts in this repository are provided for source
+availability only. No patent license or trademark license is granted.
+
+Permission is granted to view, copy, and modify the repository contents for
+internal research and evaluation use.
+
+Redistribution of the original repository-specific code, in source or binary
+form, requires prior permission from the repository maintainer.
+
+Third-party components vendored under `src/third_party/` remain subject to
+their own upstream licenses and notices. See `THIRD_PARTY_NOTICES.md` and any
+license headers or package metadata shipped with those components.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
+OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

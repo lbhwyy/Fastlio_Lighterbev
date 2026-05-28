@@ -1,0 +1,46 @@
+common:
+    lid_topic:  /points_raw
+    imu_topic:  /imu_raw
+    time_sync_en: false
+
+preprocess:
+    lidar_type: 2
+    scan_line: 128
+    scan_rate: 10
+    timestamp_unit: 0
+    blind: 2
+
+mapping:
+    acc_cov: 3.9939570888238808e-03
+    gyr_cov: 1.5636343949698187e-03
+    b_acc_cov: 6.4356659353532566e-05
+    b_gyr_cov: 3.5640318696367613e-05
+    fov_degree:    360
+    det_range:     100.0
+    extrinsic_est_en:  false
+    extrinsic_T: [0.0, 0.0, -0.13]
+    # extrinsic_R: [0.736055565, -0.676921121, 0.0,
+    #               0.676921121,  0.736055565, 0.0,
+    #               0.0,          0.0,         1.0]
+
+    # extrinsic_R: [0.999935, 0.000785752, 0.0113841,
+    #     0, -0.997626, 0.068858,
+    #     0.0114112, -0.0688535, -0.997562]
+    # extrinsic_R: [ -1, 0, 0,
+    #                 0, 1, 0, 
+    #                 0, 0, -1]
+    extrinsic_R: [0.7360555651493133, 0.6769211217083996, 0.0,
+                  -0.6769211217083996,  0.7360555651493133, 0.0,
+                  0.0,                 0.0,                1.0]
+    # extrinsic_R: [-1, 0, 0, 0, 1, 0, 0, 0, -1]
+
+
+publish:
+    path_en:  true
+    scan_publish_en:  true
+    dense_publish_en: true
+    scan_bodyframe_pub_en: true
+
+pcd_save:
+    pcd_save_en: false
+    interval: -1

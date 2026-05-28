@@ -1,0 +1,48 @@
+# Catkin build products
+/build/
+/devel/
+/install/
+/.catkin_tools/
+.catkin_workspace
+
+# Runtime outputs and datasets
+*.bag
+*.db3
+*.pcd
+*.ply
+*.las
+*.laz
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.mp4
+*.avi
+recordings/
+src/fast_lio_sam_sc_qn/*/bev_imgs/
+src/fast_lio_sam_sc_qn/*/keyframes_raw/
+src/fast_lio_sam_sc_qn/result.bag
+
+# Large model artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+*.trt
+!/src/third_party/LighterBEV/models/tool/pca_kitti_best.pt
+
+# Python/cache/editor noise
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.vscode/
+.idea/
+*~
+*.swp
+
+# Logs
+*.log
+log/
+logs/
