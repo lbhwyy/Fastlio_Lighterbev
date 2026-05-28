@@ -65,28 +65,6 @@ After installation, make sure `Torch_DIR` points to the directory containing `To
 export Torch_DIR=/path/to/libtorch/share/cmake/Torch
 ```
 
-### 3. ROS dependencies
-
-Make sure the following ROS-related dependencies are available in your environment:
-
-- `roscpp`
-- `roslib`
-- `rosbag`
-- `std_msgs`
-- `geometry_msgs`
-- `nav_msgs`
-- `sensor_msgs`
-- `visualization_msgs`
-- `tf`
-- `tf_conversions`
-- `pcl_ros`
-- `pcl_conversions`
-- `message_filters`
-- `cv_bridge`
-- `image_transport`
-
-This repository also contains vendored third-party packages under `src/third_party/`, including `FAST_LIO`, `nano_gicp`, and `livox_ros_driver`.
-
 ## Download
 
 ```bash
