@@ -23,6 +23,7 @@ recordings/
 src/fast_lio_sam_sc_qn/*/bev_imgs/
 src/fast_lio_sam_sc_qn/*/keyframes_raw/
 src/fast_lio_sam_sc_qn/result.bag
+!/assets/*.mp4
 
 # Large model artifacts
 *.pt
