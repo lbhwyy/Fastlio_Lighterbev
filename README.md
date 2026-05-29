@@ -117,13 +117,6 @@ Common launch arguments:
 - `sam_downsample`: whether to downsample point clouds before LighterBEV preprocessing
 - `downsample_voxel_size`: voxel size used when downsampling is enabled
 
-For the provided recording helper:
-
-```bash
-export BAG_PATH=/path/to/your.bag
-./scripts/record_nclt_run.sh
-```
-
 ## Repository Structure
 
 - `src/fast_lio_sam_sc_qn`: main integration package
